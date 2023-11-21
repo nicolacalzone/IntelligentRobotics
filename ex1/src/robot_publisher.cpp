@@ -18,7 +18,7 @@ int main(int argc, char **argv)
     {
         ex1::msg1 msg;  
         msg.ROOM_ID = 1;                        // Fields of the msg from msg1 model
-        msg.ROOM_NAME = "Robot vision lab";     // 
+        msg.ROOM_NAME = "Robot vision lab";     // !!!! does not work well
         msg.BATTERY_LEVEL = 85.4;               // 
 
         pub.publish(msg);

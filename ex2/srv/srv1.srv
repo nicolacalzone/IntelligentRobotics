@@ -1,0 +1,8 @@
+# Request
+std_msgs/Header header
+int32 charging_station_id
+---
+# Response
+std_msgs/Header header
+ex2/msg1 message
+

@@ -3,7 +3,7 @@
 
 void messageCallback(const ex1::msg1::ConstPtr& msg)
 {
-    ROS_INFO("I heard: [%d] [%s] [%f]", msg->ROOM_ID, msg->ROOM_NAME.c_str(), msg->BATTERY_LEVEL);
+    ROS_INFO("I heard: [%d] [%s] [%f]", msg->ROOM_ID, msg->ROOM_NAME, msg->BATTERY_LEVEL);
 }
 
 int main(int argc, char **argv)
